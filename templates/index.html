@@ -1,14 +1,16 @@
 <html>
     <head>
     <title>D&D Character Generator</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/materialize.min.css') }}">
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='site.css') }}">
+    <meta name="viewport" content="width=device-width, inital-scale= 1.0"/>
     </head>
         <body>
         <center>
-        <form action ="/character/" method="POST">
-        <button>Push me!</button>
-        </button>
-        </center>
+        <div style="position: relative;">
+            <form action ="/character/" method="POST">
+                <button style = "position: absolute; top: 300px;">Push me!</button>
+            </center>
         </div>
     </footer>
 </html>

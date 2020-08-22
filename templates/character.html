@@ -4,107 +4,116 @@
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='site.css') }}">
     </head>
     <body>
-        <div class = "Player general stats">
-            <div class = "Class and Level">
+        <div class = "Player general stats" style = "position: relative">
+            <div class = "Class and Level" style = "position: absolute; left: 300px">
                 <input type="text"  disabled = disabled value = {{class_and_level}}></input>
-                <label>CLASS & LEVEL</input>
+                <label style = "position: absolute; top: 30px; left: 0px">CLASS & LEVEL</input>
             </div>
-            <div class = "Class Background">
+            <div class = "Class Background" style = "position: absolute; left: 500px;">
                 <input type="text"  disabled = disabled value = {{class_background}}></input>
-                <label>BACKGROUND</input>
+                <label style ="position: absolute; top: 30px; left: 0px">BACKGROUND</input>
             </div>
-            <div class = "Player Name">
+            <div class = "Player Name" style = "position: absolute; left: 700px">
                 <input type="text" id="Player Name"></input>
-                <label>PLAYER NAME</input>
+                <label style = "position: absolute; top: 30px; left: 0px">PLAYER NAME</input>
             </div>
-            <div class = "Race">
+            <div class = "Race" style = "position: absolute; left: 300px; top: 50px">
                 <input type="text"  disabled = disabled value = {{race}}></input>
-                <label>RACE</input>
+                <label style = "position: absolute; top: 30px; left: 0px">RACE</input>
             </div>
-            <div class = "Alignment">
+            <div class = "Alignment" style = "position: absolute; left: 500px; top: 50px">
                 <input type="text" disabled = disabled value = {{alignment}}></input>
-                <label>ALIGNMENT</input>
+                <label style = "position: absolute; top: 30px; left: 0px">ALIGNMENT</input>
+            </div>
+            <div class = "Experience Points" style = "position: absolute; left: 700px; top: 50px">
+                <input type="text" disabled = disabled value = {{experience_points}}></input>
+                <label style = "position: absolute; top: 30px; left: 0px">EXPERIENCE POINTS</input>
             </div>
         </div>
         <br>
             <div class = "Unique attributes">
                 <div class = "Strength">
-                    <input type="text" disabled = disabled value = {{strength}}></input>
                     <label>STRENGTH</input>
+                    <input type="text" disabled = disabled value = {{strength}} style = "position: absolute; top: 40px; left: 0px">
+                    </input>
                 </div>
                 <div class = "Dexterity">
-                    <input type="text"  disabled = disabled value = {{dexterity}}></input>
-                    <label>DEXTERITY</input>
+                    <label style = "position: absolute; top: 60px; left: 5px">DEXTERITY</input>
+                    <input type="text"  disabled = disabled value = {{dexterity}} style = "position: absolute; top: 15px; left: 0px">
+                    </input>
                 </div>
                 <div class = "Constitution">
-                    <input type="text"  disabled = disabled valu = {{constitution}}></input>
-                    <label>CONSTITUTION</input>
+                    <label style = "position: absolute; top: 100px; left: 5px">CONSTITUTION</input>
+                    <input type="text"  disabled = disabled value = {{constitution}} style = "position: absolute; top: 15px; left: 0px"></input>
                 </div>
                 <div class = "Intelligence">
-                    <input type="text"  disabled = disabled value = {{intelligence}}></input>
-                    <label>INTELLIGENCE</input>
+                    <label style = "position: absolute; top: 140px; left: 5px">INTELLIGENCE</input>
+                    <input type="text"  disabled = disabled value = {{intelligence}} style = "position: absolute; top: 15px; left: 0px"></input>
                 </div>
                 <div class = "Wisdom">
-                    <input type="text"  disabled = disabled value = {{wisdom}}></input>
-                    <label>WISDOM</input>
+                    <label style = "position: absolute; top: 180px; left: 5px">WISDOM</input>
+                    <input type="text"  disabled = disabled value = {{wisdom}} style = "position: absolute; top: 15px; left: 0px"></input>
                 </div>
                 <div class = "Charisma">
-                    <input type="text"  disabled = disabled value = {{charisma}}></input>
-                    <label>CHARISMA</input>
+                    <label style = "position: absolute; top: 220px; left: 5px">CHARISMA</input>
+                    <input type="text"  disabled = disabled value = {{charisma}} style = "position: absolute; top: 15px; left: 0px"></input>
                 </div>
             </div>
         </br>
     <div class = "Inspiration window">
         <div class = "Inspiration">
-                <input type="text"  disabled = disabled value = {{inspiration}}></input>
-                <label>INSPIRATION</input>
+                <label style = "position: absolute; top: 140px; left: 190px">INSPIRATION</input>
+                <input type="text"  disabled = disabled value = {{inspiration}} style = "position: absolute; top: 20px; left: 0px"></input>
         </div>
-        <div class = "Proficency Bonus">
-                <input type="text"  disabled = disabled value = {{proficency_bonus}}></input>
+        <div class = "Proficency Bonus" style = "position: absolute; top: 180px; left: 190px">
                 <label>PROFICENCY_BONUS</input>
+                <input type="text"  disabled = disabled value = {{proficency_bonus}} style = "position: absolute; top: 20px; left: 0px"></input>
             </div>
     </div>
-    <br>
         <div class = "Saving throws">
                 <div>
-                    <input type="text"  disabled = disabled value = {{strength}}></input>
-                    <label>STRENGTH</input>
+                    <label style = "position: absolute; top: 260px; left: 190px">STRENGTH</input>
+                    <input type="text"  disabled = disabled value = {{strength}} style = "position: absolute; top: 20px; left: 0px"></input>
                 </div>
                 <div>
-                    <input type="text"  disabled = disabled value = {{dexterity}}></input>
-                    <label>DEXTERITY</input>
+                    <label style = "position: absolute; top: 300px; left: 190px">DEXTERITY</input>
+                    <input type="text"  disabled = disabled value = {{dexterity}} style = "position: absolute; top: 20px; left: 0px"></input>
+                
                 </div>
                 <div>
-                    <input type="text"  disabled = disabled value = {{constitution}}></input>
-                    <label>CONSTITUTION</input>
+                    <label style = "position: absolute; top: 340px; left: 190px">CONSTITUTION</input>
+                    <input type="text"  disabled = disabled value = {{constitution}} style = "position: absolute; top: 20px; left: 0px"></input>
+                
                 </div>
                 <div>
-                    <input type="text"  disabled = disabled value = {{intelligence}}></input>
-                    <label>INTELLIGENCE</input>
+                    <label style = "position: absolute; top: 380px; left: 190px">INTELLIGENCE</input>
+                    <input type="text"  disabled = disabled value = {{intelligence}} style = "position: absolute; top: 20px; left: 0px"></input>
+                    
                 </div>
                 <div>
-                    <input type="text"  disabled = disabled value = {{wisdom}}></input>
-                    <label>WISDOM</input>
+                    <label style = "position: absolute; top: 420px; left: 190px">WISDOM</input>
+                    <input type="text"  disabled = disabled value = {{wisdom}} style = "position: absolute; top: 20px; left: 0px"></input>
+                    
                 </div>
                 <div>
-                    <input type="text"  disabled = disabled value = {{charisma}}></input>
-                    <label>CHARISMA</input>
+                    <label style = "position: absolute; top: 460px; left: 190px">CHARISMA</input>
+                    <input type="text"  disabled = disabled value = {{charisma}} style = "position: absolute; top: 20px; left: 0px"></input>
                 </div>
-                <label>SAVING THROWS</input>
+                <label style = "position: absolute; top: 500; left: 190px">SAVING THROWS</input>
         </div>
     </br>
         <div class = "Armor Class">
             <div class = "Armor Class">
-                <input type="text"  disabled = disabled value = {{armor_class}}></input>
-                <label>STRENGTH</input>
+                <label style = "position: absolute; top: 140px; left: 400px">STRENGTH</input>
+                <input type="text"  disabled = disabled value = {{strength_armor}} style = "position: absolute; top: 20px; left: 0px"></input>
             </div>
             <div class = "Initiative Armor">
-                <input type="text"  disabled = disabled value = {{initiative}}></input>
-                <label>INITIATIVE</input>
+                <label style = "position: absolute; top: 140px; left: 600px">INITIATIVE</input>
+                <input type="text"  disabled = disabled value = {{initiative}} style = "position: absolute; top: 20px; left: 0px"></input>
             </div>
             <div class = "Speed">
-                <input type="text"  disabled = disabled value = {{speed}}></input>
-                <label>SPEED</input>
+                <label style = "position: absolute; top: 140px; left: 800px">SPEED</input>
+                <input type="text"  disabled = disabled value = {{speed}} style = "position: absolute; top: 20px; left: 0px"></input>
             </div>
         </div>
     </body>
