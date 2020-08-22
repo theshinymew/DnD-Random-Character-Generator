@@ -1,0 +1,111 @@
+<html>
+    <head>
+    <title>D&D Character Generator</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='site.css') }}">
+    </head>
+    <body>
+        <div class = "Player general stats">
+            <div>
+                <input type="text" id="Class & Level text" disabled = disabled value = {{class_and_level}}></input>
+                <label>CLASS & LEVEL</input>
+            </div>
+            <div>
+                <input type="text" id="Class Background" disabled = disabled value = {{class_background}}></input>
+                <label>BACKGROUND</input>
+            </div>
+            <div>
+                <input type="text" id="Player Name"></input>
+                <label>PLAYER NAME</input>
+            </div>
+            <div>
+                <input type="text" id="Race" disabled = disabled value = {{race}}></input>
+                <label>RACE</input>
+            </div>
+            <div>
+                <input type="text" id="Alignment" disabled = disabled value = {{alignment}}></input>
+                <label>ALIGNMENT</input>
+            </div>
+        </div>
+        <br>
+            <div class = "Unique attributes">
+                <div>
+                    <input type="text" id="Strength" disabled = disabled value = {{strength}}></input>
+                    <label>STRENGTH</input>
+                </div>
+                <div>
+                    <input type="text" id="Dexterity" disabled = disabled value = {{dexterity}}></input>
+                    <label>DEXTERITY</input>
+                </div>
+                <div>
+                    <input type="text" id="Contitution" disabled = disabled valu = {{constitution}}></input>
+                    <label>CONSTITUTION</input>
+                </div>
+                <div>
+                    <input type="text" id="Intelligence" disabled = disabled value = {{intelligence}}></input>
+                    <label>INTELLIGENCE</input>
+                </div>
+                <div>
+                    <input type="text" id="Wisdom" disabled = disabled value = {{wisdom}}></input>
+                    <label>WISDOM</input>
+                </div>
+                <div>
+                    <input type="text" id="Charisma" disabled = disabled value = {{charisma}}></input>
+                    <label>CHARISMA</input>
+                </div>
+            </div>
+        </br>
+    <div class = "Inspiration window">
+        <div>
+                <input type="text" id="Inspiration" disabled = disabled value = {{inspiration}}></input>
+                <label>INSPIRATION</input>
+        </div>
+        <div>
+                <input type="text" id="Proficency Bonus" disabled = disabled value = {{proficency_bonus}}></input>
+                <label>PROFICENCY_BONUS</input>
+            </div>
+    </div>
+    <br>
+        <div class = "Saving throws">
+                <div>
+                    <input type="text" id="Strength" disabled = disabled value = {{strength}}></input>
+                    <label>STRENGTH</input>
+                </div>
+                <div>
+                    <input type="text" id="Dexterity" disabled = disabled value = {{dexterity}}></input>
+                    <label>DEXTERITY</input>
+                </div>
+                <div>
+                    <input type="text" id="Contitution" disabled = disabled value = {{constitution}}></input>
+                    <label>CONSTITUTION</input>
+                </div>
+                <div>
+                    <input type="text" id="Intelligence" disabled = disabled value = {{intelligence}}></input>
+                    <label>INTELLIGENCE</input>
+                </div>
+                <div>
+                    <input type="text" id="Wisdom" disabled = disabled value = {{wisdom}}></input>
+                    <label>WISDOM</input>
+                </div>
+                <div>
+                    <input type="text" id="Charisma" disabled = disabled value = {{charisma}}></input>
+                    <label>CHARISMA</input>
+                </div>
+                <label>SAVING THROWS</input>
+        </div>
+    </br>
+        <div class = "Armor Class">
+            <div>
+                <input type="text" id="Armor Class" disabled = disabled value = {{armor_class}}></input>
+                <label>STRENGTH</input>
+            </div>
+            <div>
+                <input type="text" id="Initiative" disabled = disabled value = {{initiative}}></input>
+                <label>INITIATIVE</input>
+            </div>
+            <div>
+                <input type="text" id="Speed" disabled = disabled value = {{speed}}></input>
+                <label>SPEED</input>
+            </div>
+        </div>
+    </body>
+</html>
