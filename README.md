@@ -1,2 +1,2 @@
-# RCG_CodeDay
-Generator for CodeDay August 2020
+# DnD-Random-Character-Generator
+Dnd Random Character Generator for CodeDay August 2020
