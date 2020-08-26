@@ -15,7 +15,7 @@
             "Breath Weapon",
             "Damage Resistance"
         ],
-        "Source": "(PHB, page 32)",
+        "Source": "(PHB, page 32)"
     },
     "Dwarf":
     {
@@ -47,7 +47,7 @@
             "Mountain":
             {
                 "ASI": [2, 0, 0, 0, 0, 0],
-                "Features":[]
+                "Features":
                 [
                     "Dwarven Armor Training"
                 ]

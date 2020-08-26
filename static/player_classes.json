@@ -1,0 +1,60 @@
+{
+    "Barbarian":
+    {
+        "Hit Die": 8,
+        "Primary Abilities":
+        [
+            "Strength"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Strength",
+                "Constitution"
+            ],
+            "Armor":
+            [
+                "Light armor",
+                "Medium armor",
+                "Shields"
+            ],
+            "Weapons":
+            [
+                "Simple weapons",
+                "Martial weapons"
+            ],
+            "Tools":
+            [
+
+            ],
+            "Skills":
+            {
+                "Select":
+                [
+                    2,
+                    [
+                        "Animal Handling",
+                        "Athletics",
+                        "Intimidation",
+                        "Nature",
+                        "Perception",
+                        "Survival"
+                    ]
+                ]
+            },
+            "Equipment":
+            [
+                "1 Greataxe or 1 Martial weapon",
+                "2 Handaxe or 1 Simple weapon",
+                "Explorer's pack",
+                "4 Javelin"
+            ],
+            "Features":
+            [
+                "Rage",
+                "Unarmored defense"
+            ]
+        }
+    }
+}
