@@ -1,0 +1,57 @@
+{
+    "Dragonborn":
+    {
+        "ASI": [2, 0, 0, 0, 0, 1],
+        "Size": "Medium", 
+        "Speed": 30,
+        "Languages":
+        [
+            "Common", 
+            "Draconic"
+        ],
+        "Features":
+        [
+            "Draconic Ancestry",
+            "Breath Weapon",
+            "Damage Resistance"
+        ],
+        "Source": "(PHB, page 32)",
+    },
+    "Dwarf":
+    {
+        "ASI": [0, 2, 0, 0, 0, 0],
+        "Size": "Medium",
+        "Speed": 25,
+        "Languages":
+        [
+            "Common",
+            "Dwarvish"
+        ],
+        "Features":
+        [
+            "Darkvision",
+            "Dwarven Resilience",
+            "Dwarven Combat Training",
+            "Stonecunning"
+        ],
+        "Subraces":
+        {
+            "Hill":
+            {
+                "ASI": [0, 0, 0, 0, 1, 0],
+                "Features":
+                [
+                    "Dwarven Toughness"
+                ]
+            },
+            "Mountain":
+            {
+                "ASI": [2, 0, 0, 0, 0, 0],
+                "Features":[]
+                [
+                    "Dwarven Armor Training"
+                ]
+            }
+        }
+    }
+}
