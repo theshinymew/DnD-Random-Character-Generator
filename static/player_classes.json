@@ -56,5 +56,349 @@
                 "Unarmored defense"
             ]
         }
+    },
+    "Bard":
+    {
+        "Hit Die": 8,
+        "Primary Abilities":
+        [
+            "Charisma"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Dexterity",
+                "Charisma"
+            ],
+            "Armor":
+            [
+                "Light armor"
+            ],
+            "Weapons":
+            [
+                "Simple weapons",
+                "Hand Crossbows",
+                "Longswords",
+                "Rapiers",
+                "Shortwords"
+            ],
+            "Tools":
+            [
+
+            ],
+            "Skills":
+            {
+                "Select":
+                [
+                    2,
+                    [
+                        "Animal Handling",
+                        "Athletics",
+                        "Intimidation",
+                        "Nature",
+                        "Perception",
+                        "Survival"
+                    ]
+                ]
+            },
+            "Equipment":
+            [
+                "1 Greataxe or 1 Martial weapon",
+                "2 Handaxe or 1 Simple weapon",
+                "Explorer's pack",
+                "4 Javelin"
+            ],
+            "Features":
+            [
+                "Rage",
+                "Unarmored defense"
+            ]
+        }
+    },
+    "Cleric":
+    {
+        "Hit Die": 8,
+        "Primary Abilities":
+        [
+            "Wisdom"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Wisdom",
+                "Charisma"
+            ],
+            "Armor":
+            [
+                "Light armor",
+                "Medium armor",
+                "Shields"
+            ],
+            "Weapons":
+            [
+                "Simple weapons"
+            ]
+        }
+    },
+    "Druid":
+    {
+        "Hit Die": 8,
+        "Primary Abilities":
+        [
+            "Wisdom"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "Armor":
+            [
+                "Light armor (nonmetal)",
+                "Medium armor (nonmetal)",
+                "Shields (nonmetal)"
+            ],
+            "Weapons":
+            [
+                "Clubs",
+                "Daggers",
+                "Darts",
+                "Javelins",
+                "Maces",
+                "Quarterstaffs",
+                "Scimitars",
+                "Sickles",
+                "Slings",
+                "Spears"
+            ]
+        }
+    },
+    "Fighter":
+    {
+        "Hit Die": 10,
+        "Primary Abilities":
+        [
+            "Select",
+            1, 
+            [
+                "Strength",
+                "Dexterity"
+            ]
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Strength",
+                "Constitution"
+            ],
+            "Armor":
+            [
+                "Light armor",
+                "Medium armor",
+                "Heavy armor",
+                "Shields"
+            ],
+            "Weapons":
+            [
+                "Simple weapons",
+                "Martial weapons"
+            ]
+        }
+    },
+    "Monk":
+    {
+        "Hit Die": 8,
+        "Primary Abilities":
+        [
+            "Dexterity",
+            "Wisdom"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Strength",
+                "Dexterity"
+            ],
+            "Armor":
+            [
+
+            ],
+            "Weapons":
+            [
+                "Simple weapons",
+                "Shortwords"
+            ]
+        }
+    },
+    "Paladin":
+    {
+        "Hit Die": 10,
+        "Primary Abilities":
+        [
+            "Strength",
+            "Charisma"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Wisdom",
+                "Charisma"
+            ],
+            "Armor":
+            [
+                "Light armor",
+                "Medium armor",
+                "Heavy armor",
+                "Shields"
+            ],
+            "Weapons":
+            [
+                "Simple weapons",
+                "Martial weapons"
+            ]
+        }
+    },
+    "Ranger":
+    {
+        "Hit Die": 10,
+        "Primary Abilities":
+        [
+            "Dexterity",
+            "Wisdom"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Strength",
+                "Dexterity"
+            ],
+            "Armor":
+            [
+                "Light armor",
+                "Medium armor",
+                "Shields"
+            ],
+            "Weapons":
+            [
+                "Simple weapons",
+                "Martial weapons"
+            ]
+        }
+    },
+    "Rogue":
+    {
+        "Hit Die": 8,
+        "Primary Abilities":
+        [
+            "Dexterity"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "Armor":
+            [
+                "Light armor"
+            ],
+            "Weapons":
+            [
+                "Simple weapons",
+                "Hand crossbows",
+                "Longswords",
+                "Rapiers",
+                "Shortwords"
+            ]
+        }
+    },
+    "Sorcerer":
+    {
+        "Hit Die": 6,
+        "Primary Abilities":
+        [
+            "Charisma"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Constitution",
+                "Charisma"
+            ],
+            "Armor":
+            [
+                
+            ],
+            "Weapons":
+            [
+                "Daggers",
+                "Darts",
+                "Slings",
+                "Quarterstaffs",
+                "Light crossbows"
+            ]
+        }
+    },
+    "Warlock":
+    {
+        "Hit Die": 8,
+        "Primary Abilities":
+        [
+            "Charisma"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Wisdom",
+                "Charisma"
+            ],
+            "Armor":
+            [
+                "Light armor"
+            ],
+            "Weapons":
+            [
+                "Simple weapons"
+            ]
+        }
+    },
+    "Wizard":
+    {
+        "Hit Die": 6,
+        "Primary Abilities":
+        [
+            "Intelligence"
+        ],
+        "Proficiencies":
+        {
+            "Saving Throws":
+            [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "Armor":
+            [
+                
+            ],
+            "Weapons":
+            [
+                "Daggers",
+                "Darts",
+                "Slings",
+                "Quarterstaffs",
+                "Light crossbows"
+            ]
+        }
     }
 }
