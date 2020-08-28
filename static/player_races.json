@@ -1,32 +1,11 @@
 {
-    "Dragonborn":
-    {
-        "ASI": [2, 0, 0, 0, 0, 1],
-        "Size": "Medium", 
-        "Speed": 30,
-        "Languages":
-        [
-            "Common", 
-            "Draconic"
-        ],
-        "Features":
-        [
-            "Draconic Ancestry",
-            "Breath Weapon",
-            "Damage Resistance"
-        ],
-        "Source": "(PHB, page 32)"
-    },
     "Dwarf":
     {
-        "ASI": [0, 2, 0, 0, 0, 0],
-        "Size": "Medium",
+        "ASI":
+        {
+            "Constitution": 2
+        },
         "Speed": 25,
-        "Languages":
-        [
-            "Common",
-            "Dwarvish"
-        ],
         "Features":
         [
             "Darkvision",
@@ -38,7 +17,10 @@
         {
             "Hill":
             {
-                "ASI": [0, 0, 0, 0, 1, 0],
+                "ASI":
+                {
+                    "Wisdom": 1
+                },
                 "Features":
                 [
                     "Dwarven Toughness"
@@ -46,12 +28,221 @@
             },
             "Mountain":
             {
-                "ASI": [2, 0, 0, 0, 0, 0],
+                "ASI":
+                {
+                    "Strength": 2
+                },
                 "Features":
                 [
                     "Dwarven Armor Training"
                 ]
             }
         }
+    },
+    "Elf":
+    {
+        "ASI":
+        {
+            "Dexterity": 2
+        },
+        "Speed": 30,
+        "Features":
+        [
+            "Darkvision",
+            "Keen Senses",
+            "Fey Ancestry",
+            "Trance"
+        ],
+        "Subraces":
+        {
+            "High":
+            {
+                "ASI":
+                {
+                    "Intelligence": 1
+                },
+                "Features":
+                [
+                    "Elf Weapon Training",
+                    "Cantrip",
+                    "Extra Language"
+                ]
+            },
+            "Wood":
+            {
+                "ASI":
+                {
+                    "Wisdom": 1
+                },
+                "Features":
+                [
+                    "Elf Weapon Training",
+                    "Fleet of Foot",
+                    "Mask of the Wild"
+                ]
+            },
+            "Dark":
+            {
+                "ASI":
+                {
+                    "Charisma": 1
+                },
+                "Features":
+                [
+                    "Superior Darkvision",
+                    "Sunlight Sensitivity",
+                    "Drow Magic",
+                    "Drow Weapon Training"
+                ]
+            }
+        }
+    },
+    "Halfling":
+    {
+        "ASI":
+        {
+            "Dexterity": 2
+        },
+        "Speed": 25,
+        "Features":
+        [
+            "Lucky",
+            "Brave",
+            "Halfling Nimbleness"
+        ],
+        "Subraces":
+        {
+            "Lightfoot":
+            {
+                "ASI":
+                {
+                    "Charisma": 1
+                },
+                "Features":
+                [
+                    "Naturally Stealthy"
+                ]
+            },
+            "Stout":
+            {
+                "ASI":
+                {
+                    "Constitution": 2
+                },
+                "Features":
+                [
+                    "Stout Resilience"
+                ]
+            }
+        }
+    },
+    "Human":
+    {
+        "ASI":
+        {
+            "Strength": 1,
+            "Dexterity": 1,
+            "Constitution": 1,
+            "Intelligence": 1,
+            "Wisdom": 1,
+            "Charisma": 1
+        },
+        "Speed": 30
+    },
+    "Dragonborn":
+    {
+        "ASI":
+        {
+            "Strength": 2,
+            "Charisma": 1
+        },
+        "Speed": 30,
+        "Features":
+        [
+            "Draconic Ancestry",
+            "Breath Weapon",
+            "Damage Resistance"
+        ]
+    },
+    "Gnome":
+    {
+        "ASI":
+        {
+            "Intelligence": 2
+        },
+        "Speed": 25,
+        "Features":
+        [
+            "Darkvision",
+            "Gnome Cunning"
+        ],
+        "Subraces":
+        {
+            "Forest":
+            {
+                "ASI":
+                {
+                    "Dexterity": 1
+                },
+                "Features":
+                [
+                    "Natural Illusionist",
+                    "Speak with Small Beasts"
+                ]
+            },
+            "Rock":
+            {
+                "ASI":
+                {
+                    "Constitution": 1
+                },
+                "Features":
+                [
+                    "Artificer's Lore",
+                    "Tinker"
+                ]
+            }
+        }
+    },
+    "Half-Elf":
+    {
+        "ASI":
+        {
+            "Charisma": 2,
+            "Select": 
+            [
+                2,
+                [
+                    "Strength",
+                    "Dexterity",
+                    "Constitution",
+                    "Intelligence",
+                    "Wisdom"
+                ]
+            ]
+        },
+        "Speed": 30,
+        "Features":
+        [
+            "Darkvision",
+            "Fey Ancestry",
+            "Skill Versatility"
+        ]
+    },
+    "Half-Orc":
+    {
+        "ASI":
+        {
+            "Strength": 2,
+            "Constitution": 1
+        },
+        "Speed": 30,
+        "Features":
+        [
+            "Darkvision",
+            "Menacing",
+            "Relentless Endurance",
+            "Savage Attacks"
+        ]
     }
 }
