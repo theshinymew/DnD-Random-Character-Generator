@@ -7,34 +7,16 @@ class PlayerCharacter:
     def __init__(self):
         self.pc_stats = self.generateStats()
 
-        with open("static/CharacterData.json") as json_file:
-            data = json.load(json_file)
-
-        self.pc_race = random.choice(data["playerRaces"])
-        self.pc_class = random.choice(data["playerClasses"])
+        with open("static/player_races.json") as races:
+            racedata = json.load(races)
         
-    def generateStats(self) -> list:
-        stats = []
-        for i in range(6):
-            stat_min = 7
-            stat_sum = 0
-            for j in range(4):
-                n = random.randint(1, 6)
-                if n < stat_min:
-                    stat_min = n
-                stat_sum += n
-            s = stat_sum - stat_min
-            if s < 6:
-                stats = standard_array
-                random.shuffle(stats)
-                return stats
-            else:
-                stats.append(s)
+        with open("static/player_classes.json") as classes:
+            classdata = json.load(classes)
 
-        return stats
-
-mychar = PlayerCharacter()
-
-print(mychar.pc_stats)
-print(mychar.pc_class)
-print(mychar.pc_race)
+        self.pc_race = random.choice(list(racedata))
+        self.pc_class = random.choice(list(classdata))
+        
+    def generateStats(self) -> dict:
+        keys = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"]
+        stats = [sum(sorted([random.randint(1,6) for x in range(4)])[1:]) for y in range(6)]
+        return dict(zip(keys, stats))
